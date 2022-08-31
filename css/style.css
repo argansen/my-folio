@@ -1,0 +1,53 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+.container{
+width: 1170px;
+margin: auto; }
+.raw{ display: flex;
+      flex-wrap: wrap;}
+ .align-center{align-items: center;}
+      
+a{text-decoration: none;}
+ul,li{list-style: none;}
+
+body{font-family: 'Open Sans', sans-serif;}
+
+
+/* navbar starts here */
+ nav{background-color: #02918c;}
+ nav .logo{ width: 30%;}
+ nav .menu{ width: 70%;}
+ nav .menu ul {text-align: right;}
+ nav .menu ul li{ display: inline-block;}
+ nav .menu ul li a{ display: block; font-weight: 800; color: #ffffff;
+      text-transform: uppercase; font-size: 11px; padding: 26px 25px;}
+/* navbar starts ends */
+
+/* BANNER start here */
+#banner {height: 735px; background-image: url(../img/banner.gif); 
+      background-color: rgba(0, 0, 0, 0.34);background-blend-mode: multiply;
+background-size: cover;position: relative; text-align: center;}
+
+/* #banner::before{ content: ""; width: 100%;height:100%; background-color: rgba(0, 0, 0 ,0.34 );
+       position: absolute; top: 0px; left: 0px;} */
+
+      #banner .bannercnt{text-align: center;  color: #ffffff; width: 100%; text-align: center;}
+      #banner .raw{ height: 735px;}
+  
+      #banner .bannercnt h3{
+      font-weight: 400;
+      font-size: 30px;
+     }    
+     #banner .bannercnt h1{ font-weight: 800;
+      font-size: 68px; text-transform: uppercase;
+       letter-spacing: 30px;  }
+       #banner .bannercnt p{ font-size: 18px; font-weight: 400;}
+       #banner .bannercnt a{ display:block; width: 196px; height: 45px;
+             background-color: #cfc91d; margin: auto; font-size: 14px;
+            font-weight: 800; color: #0b1016; text-transform: uppercase;
+             line-height: 45px;} 
+             #banner .bannercnt img{margin: 48px 0px;}
+
+/* BANNER ends */
